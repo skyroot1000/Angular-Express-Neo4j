@@ -11,3 +11,10 @@
 - 'npm run dev' or 'nodemon server.js' //server
 - 'ng serve' //front-end
 
+
+ # Neo4j
+
+<!-- Badges -->
+<p align="center">
+<img src="https://github.com/skyroot1000/d3js-area-chart/blob/master/Untitled.png?raw=true" width="800" alt="Built with AngularDart">
+</p>
