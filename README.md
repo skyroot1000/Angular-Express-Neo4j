@@ -13,6 +13,7 @@
 
 
  # Neo4j
+ Simple Demo Query
 
 <!-- Badges -->
 <p align="center">
