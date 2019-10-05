@@ -1,27 +1,13 @@
-# Apitest
+# About
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+- Log into user's Gmail account via the browser.
+- Import user's 1000 most recent emails via the API (Google API)
+- Save them in a graph database, where senders are the nodes vertices.
+- Show the list(in the front end) of the probabilities of user answering an email from each sender in the graph, assuming the next email he/she gets is from that sender.
 
-## Development server
+# Build
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- 'npm install'
+- 'npm run dev' or 'nodemon server.js' //server
+- 'ng serve' //front-end
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
