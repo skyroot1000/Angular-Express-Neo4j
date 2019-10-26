@@ -59,7 +59,7 @@ app.use('/auth/google', passport);
        done(null, user.id); // Return user object
    });
 
-   // Google Strategy  
+   // Google Strategy
    passport.use(new GoogleStrategy({
            clientID: '813101555267-3d2molmesrv23pe2q155nd2uh02k08ls.apps.googleusercontent.com', // Replace with your Google Developer App client ID
            clientSecret: '1E9gWHKviWf_-dTSLXLsAPDZ', // Replace with your Google Developer App client ID
@@ -78,7 +78,7 @@ app.use('/auth/google', passport);
        }
    ));
 
-   // Google Routes    
+   // Google Routes
    app.get('/auth/google', passport.authenticate('google', { scope: ['https://www.googleapis.com/auth/plus.login', 'profile', 'email'] }));
    app.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/googleerror' }), function(req, res) {
        res.redirect('/google/' + token); // Redirect user with newly assigned token
