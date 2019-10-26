@@ -5,6 +5,7 @@
 - Save them in a graph database, where senders are the nodes vertices.
 - Show the list(in the front end) of the probabilities of user answering an email from each sender in the graph, assuming the next email he/she gets is from that sender.
 
+
 # Build
 
 - 'npm install'
