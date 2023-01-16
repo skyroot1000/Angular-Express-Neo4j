@@ -56,7 +56,7 @@ app.use('/auth/google', passport);
        } else {
            token = 'inactive/error'; // If account not active, provide invalid token for use in redirecting later
        }
-       done(null, user.id); // Return user object
+       done(null, user.id);
    });
 
    // Google Strategy
